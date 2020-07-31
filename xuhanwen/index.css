@@ -1,0 +1,128 @@
+*{
+	margin:0;
+    padding:0;
+}
+.denglu{
+    width: 500px;
+    height: 410px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    top: 50%;
+    margin-top: -215px;
+}
+.dl{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#70DB93;
+}
+.s1{
+    height: 40px;
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.s2{
+    height: 40px;
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+.s5{
+    height: 40px;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-left: 67px;
+    line-height: 40px;
+}
+.s3{
+    vertical-align: middle;
+    border-radius: 10px;
+    outline: medium;
+    border:0;
+    width: 200px;
+    height: 36px;
+    margin-top: -4px;
+    font-size: 26px;
+}
+.s4{
+    vertical-align: middle;
+    border-radius: 10px;
+    outline: medium;
+    border:0;
+    width: 270px;
+    height: 36px;
+    margin-top: -4px;
+    font-size: 26px;
+}
+.b1{
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    margin-top:10px;
+    float: left;
+    text-align: center;
+}
+.b2{
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    margin-top:10px;
+    float: left;
+    text-align: center;
+}
+.b3{
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    margin-top:10px;
+    float: left;
+    text-align: center;
+}
+.dl1{
+    margin-left: 120px;
+    font-size: 24px;
+    background-color: cyan;
+    color: #000;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 260px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    outline: none;
+    border:0;
+}
+.dl1:hover.dl1{
+    background-color: #2770BF;
+}
+.dl2{
+    text-decoration: none;
+}
+.b4{
+    width: 166px;
+    height: 40px;
+    font-size: 16px;
+    margin-top:20px;
+    float: left;
+    text-align: center;
+}
+.box{
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: #FA6441;
+}
+.box2{
+    height: 40px;
+    font-size: 12px;
+    line-height: 36px;
+    width: 70px;
+    position: absolute;
+}
