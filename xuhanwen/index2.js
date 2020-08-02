@@ -11,17 +11,19 @@ window.onload = function(){
 };
 //创建墙
 function Wall(oDiv){
+    setInterval(function(){
     let wall1 = document.createElement('div');
     let wall2 = document.createElement('div');
     let minNum = 250;
     let maxNum = 500;
     let H1 = randomNum(minNum,maxNum);
     let H2 = 610-H1;
-    wall1.style.cssText = 'width:50px;position:absolute;right:0;background-color:cyan;top:0;height:'+H1+'px';
-    wall2.style.cssText = 'width:50px;position:absolute;right:0;background-color:cyan;bottom:0;height:'+H2+'px';
+    wall1.style.cssText = 'width:50px;position:absolute;right:-80px;background-color:cyan;top:0;height:'+H1+'px';
+    wall2.style.cssText = 'width:50px;position:absolute;right:-80px;background-color:cyan;bottom:0;height:'+H2+'px';
     oDiv.appendChild(wall1);
     oDiv.appendChild(wall2);
-    mobile(H1,H2,wall1,wall2);
+    mobile(wall1,wall2);    
+    },3000);
 }
 
 function Start(){
@@ -40,10 +42,11 @@ function randomNum(minNum,maxNum){
         break; 
     } 
 } 
-function mobile(H1,H2,wall1,wall2){
+function mobile(wall1,wall2){
     let w1 = 0;
     setInterval(function (){
-        w1 = w1 + 5;
-        wall1.style.left 
-    },1000,'W1','H1','H2','wall1','wall2');
+        w1 = w1 + 3;
+        wall1.style.right = w1 + 'px';
+        wall2.style.right = w1 + 'px';
+    },10,'W1','wall1','wall2');
 }
