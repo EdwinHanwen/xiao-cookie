@@ -7,7 +7,7 @@ window.onload = function(){
     document.body.appendChild(oDiv);
     oDiv.appendChild(SmallBall);
     Wall(oDiv);
-    Start();
+    oDiv.onclick = Start(SmallBall)
 };
 //创建墙
 function Wall(oDiv){
@@ -25,8 +25,9 @@ function Wall(oDiv){
     mobile(wall1,wall2);    
     },3000);
 }
-
-function Start(){
+//球移动
+function Start(SmallBall){
+    SmallBall.style.right = SmallBall.style.right + 10;
 }
 //随机数
 function randomNum(minNum,maxNum){ 
@@ -41,7 +42,8 @@ function randomNum(minNum,maxNum){
             return 0; 
         break; 
     } 
-} 
+}
+//墙移动 
 function mobile(wall1,wall2){
     let w1 = 0;
     setInterval(function (){
