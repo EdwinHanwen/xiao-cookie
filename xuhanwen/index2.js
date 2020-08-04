@@ -27,7 +27,7 @@ function Wall(oDiv){
 }
 //球移动
 function Start(SmallBall){
-    SmallBall.style.right = SmallBall.style.right + 10;
+    SmallBall.style.right++;
 }
 //随机数
 function randomNum(minNum,maxNum){ 

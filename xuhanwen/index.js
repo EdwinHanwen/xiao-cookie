@@ -1,9 +1,9 @@
 // 窗口事件
-window.onresize = function(){
-    var h = document.documentElement.clientHeight;
-    var allmapBox = document.getElementById('modss');
-    allmapBox.style.height = h + 'px';
-}
+// window.onresize = function(){
+//     var h = document.documentElement.clientHeight;
+//     var allmapBox = document.getElementById('modss');
+//     allmapBox.style.height = h + 'px';
+// }
 if(localStorage.getItem("account number")==localStorage.getItem("zg") && localStorage.getItem("password")==localStorage.getItem("mm") ){
     var c = confirm('点击确定放弃自动登陆');
     if(c==true){
